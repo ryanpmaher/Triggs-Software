@@ -11,10 +11,10 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 1,
         name: "intro",
-        tagline: "SUCCESS",
-        title: "How We Help You To Sell Your Product",
+        tagline: "Credentials",
+        title: "We bring a duality of diverse industry experience",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!",
+          "For over 30 years, Stephen Maher has been a lead software engineer at NASA Goddard Space Flight Center. His son, Ryan Maher has been a software engineer at Capital One bank for the last 4 years.",
       },
       {
         id: 2,
@@ -56,42 +56,42 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 7,
         name: "header",
-        tagline: "A FREE AND SIMPLE LANDING PAGE",
+        tagline: "A FATHER & SON SOFTWARE SOLUTIONS COMPANY",
         title:
-          "Namari is free landing page template you can use for your projects. It is free to use for your personal and commercial projects, enjoy!",
-        buttontext: "START CREATING TODAY",
-        buttonlink: "/home",
-        image: "banner-image-1.jpg",
+          "Combining years of software developement experience from the public and private sector, Triggs software built to streamline and modernize your technology stack.",
+        buttontext: "Discover Our Team",
+        buttonlink: "/about",
+        image: "banner-image-1.png",
       },
     ];
     const features = [
       {
         id: 1,
-        icon: "html5",
-        title: "HTML5 & CSS3",
+        icon: "tasks",
+        title: "Data Processing",
         description:
-          "Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro neglegentur iudico",
+          "Stephen's work at NASA centered around data captured by telescopes and designing systems to process and visualize this data.",
       },
       {
         id: 2,
-        icon: "bolt",
-        title: "Easy to Use",
+        icon: "eye",
+        title: "Technical Consulting",
         description:
-          "Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit detracto mediocrem disputationi",
+          "Both Stephen and Ryan have served as internal/external software consultants at times in their career helping guide technical decisions.",
       },
       {
         id: 3,
-        icon: "tablet",
-        title: "Fully Responsive",
+        icon: "cloud",
+        title: "Cloud Systems",
         description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
+          "Ryan has spent his entire proffesional career working with Fortune 500 enterprise cloud computing systems and is a certified AWS Solutions Architect.",
       },
       {
         id: 4,
-        icon: "rocket",
-        title: "Parallax Effect",
+        icon: "home",
+        title: "Architecture Design",
         description:
-          "Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro nemore vivendum",
+          "Both developers have designed large scale software projects and know how to navigate full stack software applications as well as embedded systems.",
       },
     ];
     const images = [
