@@ -22,7 +22,7 @@ import { NotfoundModule } from "./notfound/notfound.module";
 import { PricingModule } from "./pricing/pricing.module";
 import { ServicesModule } from "./services/services.module";
 import { TestimonialModule } from "./testimonial/testimonial.module";
-
+import { ContactModule } from "./contact/contact.module";
 // Services
 import { ConfigService } from "./shared/services/config.service";
 import { InMemoryDataService } from "./shared/services/in-memory-data.service";
@@ -37,6 +37,7 @@ import { InMemoryDataService } from "./shared/services/in-memory-data.service";
     WebsiteBlockComponent,
   ],
   imports: [
+    ContactModule,
     AboutModule,
     AppRoutingModule,
     BrowserModule,

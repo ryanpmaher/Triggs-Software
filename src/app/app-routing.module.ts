@@ -42,6 +42,11 @@ const routes: Routes = [
       import("./pricing/pricing.module").then((mod) => mod.PricingModule),
   },
   {
+    path: "contact",
+    loadChildren: () =>
+      import("./contact/contact.module").then((mod) => mod.ContactModule),
+  },
+  {
     path: "404",
     loadChildren: () =>
       import("./notfound/notfound.module").then((mod) => mod.NotfoundModule),

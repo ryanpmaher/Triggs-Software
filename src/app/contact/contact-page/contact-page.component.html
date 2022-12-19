@@ -1,0 +1,15 @@
+<section
+  id="contaact"
+  class="introduction scrollto"
+  *ngIf="intro$ | async as intro"
+>
+  <div class="block-block">
+    <div>
+      <div class="section-heading">
+        <h3>Find Us</h3>
+        <h2 class="section-title">Email us a steve.f.maher@gmail.com</h2>
+        <button class="button" (click)="copyMessage('steve.f.maher@gmail.com')" value="click to copy" >Copy Email</button>
+      </div>
+    </div>
+  </div>
+</section>

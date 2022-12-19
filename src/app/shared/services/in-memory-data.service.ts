@@ -14,7 +14,7 @@ export class InMemoryDataService implements InMemoryDbService {
         tagline: "Credentials",
         title: "We bring a duality of diverse industry experience",
         description:
-          "For over 30 years, Stephen Maher has been a lead software engineer at NASA Goddard Space Flight Center. His son, Ryan Maher has been a software engineer at Capital One bank for the last 4 years.",
+          "Stephen Maher got his Masters in Computer Science and for the last 30 year has been a lead software engineer at NASA Goddard Space Flight Center. His son, Ryan Maher graduated from THE Ohio State University and has been a software engineer at Capital One bank for the last 4 years.",
       },
       {
         id: 2,
@@ -27,10 +27,10 @@ export class InMemoryDataService implements InMemoryDbService {
       {
         id: 3,
         name: "services",
-        tagline: "BELIEVING",
-        title: "Focusing On What Matters Most",
+        tagline: "Why Triggs?",
+        title: "Bringing Immediate Value to your Company",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!",
+          "As a small software firm, Triggs Software current only takes one client at a time giving them their sole and undivided focus. We are a young and hungry company devoted to giving clients meaningful results at a fair price. Our number one priority is growing our reputation of giving our customers quality services."
       },
       {
         id: 4,
@@ -50,7 +50,7 @@ export class InMemoryDataService implements InMemoryDbService {
         id: 6,
         name: "footer",
         tagline: "Made with ❤ by",
-        developer: "Bateman Industries",
+        developer: "Ryan Maher",
         developerlink: "andrewbateman.org",
       },
       {
@@ -106,10 +106,8 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 1, title: "Home", link: "/home"},
       { id: 2, title: "About", link: "/about"},
       { id: 3, title: "Services", link: "/services"},
-      { id: 4, title: "Gallery", link: "/gallery"},
       { id: 5, title: "Testimonials", link: "/testimonials"},
-      { id: 6, title: "Clients", link: "/clients"},
-      { id: 7, title: "Pricing", link: "/pricing"},
+      { id: 6, title: "contact", link: "/contact"},
     ];
     const companies = [
       {
