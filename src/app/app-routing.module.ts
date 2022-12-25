@@ -1,9 +1,15 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule, Routes } from "@angular/router";
+import { HomeModule } from "./home/home.module";
+import { HomePageComponent } from "./home/home-page/home-page.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "home", pathMatch: "full" },
+  {
+    path: '',
+    pathMatch: 'full', //default
+    redirectTo: '/home'
+  },
   {
     path: "home",
     loadChildren: () =>
@@ -41,11 +47,11 @@ const routes: Routes = [
     loadChildren: () =>
       import("./pricing/pricing.module").then((mod) => mod.PricingModule),
   },
-  {
-    path: "contact",
-    loadChildren: () =>
-      import("./contact/contact.module").then((mod) => mod.ContactModule),
-  },
+  // {
+  //   path: "contact",
+  //   loadChildren: () =>
+  //     import("./contact/contact.module").then((mod) => mod.ContactModule),
+  // },
   {
     path: "404",
     loadChildren: () =>
